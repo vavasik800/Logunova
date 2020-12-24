@@ -26,8 +26,3 @@ def solution(list_urls):
         new_url_list.append(new_url)
     new_urls_set = set(new_url_list)
     return len(new_url_list)
-
-
-list = ["test.email+alex@leetcode.com","test.email+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
-
-print(solution(list))
